@@ -4,7 +4,6 @@ background-color:$primary-color-site;
 max-width: 1600px;
 margin: 0 auto;
 
-
 text-align: center;
 padding: 200px 0;
 background-image: linear-gradient(to right,
@@ -40,13 +39,9 @@ background-color: $bgc-silver;
 
   transition: color $timing-option,
   background-color $timing-option;
-}
 
-.hero__button:hover {
-  background-color: $active-btm-color;
-}
-
-.hero__button:focus {
-  background-color: $active-btm-color;
-  color: $primary-bg-color;
+  &:hover,
+  &:focus{
+    background-color: $active-btm-color;
+  }
 }

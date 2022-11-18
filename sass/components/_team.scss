@@ -59,19 +59,12 @@ margin-right: 10px;
 transition: color $timing-option,
 background-color $timing-option,
 box-shadow $timing-option;
-}
 
-
-.networks__link:hover {
-color: $primary-bg-color;
-background-color: $accent-color;
-box-shadow: 0px 4px 4px $box-shadow-second;
-}
-
-.networks__link:focus {
-color: $primary-bg-color;
-background-color: $accent-color;
-box-shadow: 0px 4px 4px $box-shadow-second;
+&:hover,
+&:focus{
+  color: $primary-bg-color;
+  background-color: $accent-color;
+  box-shadow: 0px 4px 4px $box-shadow-second;}
 }
 .comand__label {
 padding: 30px 0;

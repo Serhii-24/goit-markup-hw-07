@@ -35,20 +35,18 @@ font-size: 16px;
 line-height: 1.87;
 letter-spacing: 0.06em;
 transition: box-shadow $timing-option;
-}
 
-.spam__button:hover,
-.spam__button:focus {
+&:hover,
+&:focus{
   box-shadow: 0px 4px 4px $box-shadow-color;
 }
-
+}
 .spam__icon {
   width: 24px;
   height: 24px;
   margin-left: 10px;
   fill: $primary-bg-color;
 }
-
 .spam__title {
   font-weight: 700;
   font-size: 14px;
